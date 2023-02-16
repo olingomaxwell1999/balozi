@@ -14,7 +14,7 @@ function Enquirestrip() {
       <div className="description-area">
         <div className="place">
           <h3>you are viewing</h3>
-          <h2>The Reveal</h2>
+          <h2>Balozi Suites</h2>
         </div>
         <div className="place">
           <h3>prices from</h3>
@@ -22,7 +22,7 @@ function Enquirestrip() {
         </div>
         <div className="place">
           <h3>completion date</h3>
-          <h2>Q4 2023</h2>
+          <h2>Q3 2025</h2>
         </div>
         <div className="place">
           <h3>payment over</h3>
@@ -30,7 +30,7 @@ function Enquirestrip() {
         </div>
         <div className="place">
           <h3>location</h3>
-          <h2>Ngong Road</h2>
+          <h2>Mombasa Road</h2>
         </div>
       </div>
       
