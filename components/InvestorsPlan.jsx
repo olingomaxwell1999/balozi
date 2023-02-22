@@ -11,13 +11,13 @@ function InvestmentPlan() {
 
   return (
     <div data-aos="fade-up" className='investment-plan'>
-        <div className="top-text">
+        <div  className="top-text">
           <h3>second source</h3>
           <h1>investment</h1>
           <h3>never look this good</h3>
         </div>
 
-        <div className="investment-area">
+        <div data-aos="fade-up" className="investment-area">
           <div className="investment-card">
             <div className="heading-place">
               <h2>PREMIUM LOCATION</h2>
@@ -58,6 +58,41 @@ A large base of investors have been attracted by the growing market demand of lu
           </div>
 
           
+        </div>
+
+        <div data-aos="fade-up" className="investment-area">
+          <div className="investment-card">
+            <div className="heading-place">
+              <h2>PROJECT TIMELINES</h2>
+            </div>
+
+            <div className="text-area-investment">
+                <p>Q2 2023 – Q3 2025</p>
+              </div>
+            
+          </div>
+
+          <div className="investment-card">
+            <div className="heading-place">
+              <h2>STANDARD PAYMENT PLAN</h2>
+            </div>
+
+            <div className="text-area-investment">
+                <p>25% deposit, 75% payable in quarterly instalments during construction period.</p>
+              </div>
+            
+          </div>
+
+          <div className="investment-card">
+            <div className="heading-place">
+              <h2>ALTERNATIVE PAYMENT PLAN</h2>
+            </div>
+
+            <div className="text-area-investment">
+                <p>Upfront Payments: All amounts paid can be refunded in full if cancellation is before signing of the sale agreement. All such refunds should be requested in writing and shall be issued in the purchaser name(s) stated on the reservation form regardless of the source of funds.</p>
+              </div>
+            
+          </div>
         </div>
     </div>
   )
