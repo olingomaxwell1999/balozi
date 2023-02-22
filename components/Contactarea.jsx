@@ -18,7 +18,7 @@ function Contactarea() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_k0kmfra', 'template_1gexomv', e.target, '9hsiJOao5Q5BKRDMW')
+    emailjs.sendForm('service_9ovluio', 'template_3a9w779', e.target, '75xRtoN8oQEwfRSES')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

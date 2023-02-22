@@ -31,7 +31,7 @@ function InvestmentPlan() {
 
           <div className="investment-card">
             <div className="heading-place">
-              <h2>lifestyle</h2>
+              <h2>LIFESTYLE</h2>
             </div>
 
             <div className="text-area-investment">

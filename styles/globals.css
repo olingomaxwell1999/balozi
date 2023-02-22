@@ -1024,4 +1024,14 @@ ul{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  margin-bottom: 20px;
+}
+
+.investment-plan .investment-area .heading-place{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #f8a428;
+  margin-bottom: 10px;
 }
