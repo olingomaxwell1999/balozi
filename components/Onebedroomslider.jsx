@@ -54,47 +54,47 @@ function Onebedroomslider() {
   const Images = [
     {
       id: 0,
-      src: ImageOne,
+      src: ImageNineteen,
       alt: 'image slider One'
     },
     {
       id: 1,
-      src: ImageTwo,
+      src: ImageEighteen,
       alt: 'image slider Two'
     },
     {
       id: 2,
-      src: ImageThree,
+      src: ImageSeventeen,
       alt: 'image slider Three'
     },
     {
       id: 3,
-      src: ImageFour,
+      src: ImageSixteen,
       alt: 'image slider Four'
     },
     {
       id: 4,
-      src: ImageFive,
+      src: ImageFifteen,
       alt: 'image slider Five'
     },
     {
       id: 5,
-      src: ImageSix,
+      src: ImageFourteen,
       alt: 'image slider Six'
     },
     {
       id: 6,
-      src: ImageSeven,
+      src: ImageThirteen,
       alt: 'image slider Seven'
     },
     {
       id: 7,
-      src: ImageEight,
+      src: ImageTwelve,
       alt: 'image slider Eight'
     },
     {
       id: 8,
-      src: ImageNine,
+      src: ImageEleven,
       alt: 'image slider Nine'
     },
     {
@@ -104,47 +104,47 @@ function Onebedroomslider() {
     },
     {
       id: 10,
-      src: ImageEleven,
+      src: ImageNine,
       alt: 'image slider Eleven'
     },
     {
       id: 11,
-      src: ImageTwelve,
+      src: ImageEight,
       alt: 'image slider Twelve'
     },
     {
       id: 12,
-      src: ImageThirteen,
+      src: ImageSeven,
       alt: 'image slider ImageThirteen'
     },
     {
       id: 13,
-      src: ImageFourteen,
+      src: ImageSix,
       alt: 'image slider ImageFourteen'
     },
     {
       id: 14,
-      src: ImageFifteen,
+      src: ImageFive,
       alt: 'image slider ImageFifteen'
     },
     {
       id: 15,
-      src: ImageSixteen,
+      src: ImageFour,
       alt: 'image slider ImageSixteen'
     },
     {
       id: 16,
-      src: ImageSeventeen,
+      src: ImageThree,
       alt: 'image slider ImageSeventeen'
     },
     {
       id: 17,
-      src: ImageEighteen,
+      src: ImageTwo,
       alt: 'image slider ImageEighteen'
     },
     {
       id: 18,
-      src: ImageNineteen,
+      src: ImageOne,
       alt: 'image slider ImageNineteen'
     },
     {
