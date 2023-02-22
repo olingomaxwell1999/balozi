@@ -58,7 +58,7 @@ a{
 /* start of navigation styles */
 
 header{
-  position: fixed !important;
+  position: sticky !important;
   z-index: 100000;
   top: 0;
   left: 0;
@@ -123,12 +123,12 @@ nav{
   align-items: center;
 }
 @media screen and (min-width: 768px) {
-  .nav__menu-bar{
+  /* .nav__menu-bar{
     display: none;
-  }
+  } */
   .nav__menu-list{
-    position: unset;
-    flex-direction: row;
+    /* position: unset; */
+    flex-direction: column;
     min-height: fit-content;
     width: fit-content;
     column-gap: 24px;
