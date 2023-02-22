@@ -1027,6 +1027,18 @@ ul{
   margin-bottom: 30px;
 }
 
+@media screen and (max-width:768px){
+  .investment-plan .investment-area{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (max-width:600px){
+  .investment-plan .investment-area{
+    grid-template-columns: 1fr;
+  }
+}
+
 .investment-plan .investment-area .heading-place{
   display: flex;
   justify-content: center;
