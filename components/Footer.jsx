@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Logo from '../assets/logoblack.jpg'
+import Logo from '../assets/logoblack.png'
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'

@@ -1039,10 +1039,10 @@ ul{
   }
 }
 
-.investment-plan .investment-area .heading-place{
+.investment-plan .heading-place{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   text-transform: uppercase;
   color: #f8a428;
   margin-bottom: 10px;
@@ -1078,4 +1078,4 @@ ul{
 .purchase-plan .list-purchase li span{
   font-weight: 600;
   margin-right: 10px;
-}
+} 

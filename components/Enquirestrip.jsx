@@ -18,7 +18,7 @@ function Enquirestrip() {
         </div>
         <div className="place">
           <h3>prices from</h3>
-          <h2>KSHS. 9M</h2>
+          <h2>KSHS. 2.2M</h2>
         </div>
         <div className="place">
           <h3>completion date</h3>

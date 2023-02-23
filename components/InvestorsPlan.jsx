@@ -60,7 +60,7 @@ A large base of investors have been attracted by the growing market demand of lu
           
         </div>
 
-        <div data-aos="fade-up" className="investment-area">
+        <div data-aos="fade-up" className="investment">
           <div className="investment-card">
             <div className="heading-place">
               <h2>PROJECT TIMELINES</h2>
