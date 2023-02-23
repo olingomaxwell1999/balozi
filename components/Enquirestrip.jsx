@@ -26,11 +26,11 @@ function Enquirestrip() {
         </div>
         <div className="place">
           <h3>payment over</h3>
-          <h2>27 Months</h2>
+          <h2>24 Months</h2>
         </div>
         <div className="place">
           <h3>location</h3>
-          <h2>Mombasa Road</h2>
+          <h2>South B</h2>
         </div>
       </div>
       
