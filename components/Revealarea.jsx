@@ -18,9 +18,9 @@ function Revealarea() {
         </div>
         <div className="amenities-first-text">
             <p>A place where opulence, timeless elegance and classic beauty effortlessly blend.  Balozi Suites, is a once-in-a-lifetime modern apartment that epitomizes the very best in lifestyle, location and luxury. Perched on the highly desirable South B Area overlooking the great Nairobi Express Way, CBD Skyline, Nairobi National Park Mombasa road and Southern Bypass.
-
+<br/><br/>
 Capturing sparkling interior and exterior views from all rooms within this luxurious residence, this enviable one-bedroom and studio apartment has the highly sought-after investment opportunity that guarantees investors maximum returns on their investment.
-
+<br/><br/>
 Further adding to the undeniable luxury is a rooftop pool, fully equipped rooftop chill spot, fine dine restaurant and internal access to health and fitness club.
 
 </p>
