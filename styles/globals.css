@@ -887,13 +887,13 @@ ul{
 .contact-image-logo-area{
   position: absolute;
   left: -30px;
-  top: 40px;
+  top: 20px;
   width: 120% !important;
   object-fit: cover;
 }
 
 .contact-logo-image-logo-area{
-  height: 100px;
+  height: 200px;
   width: 200px;
   object-fit: cover;
   position: absolute;
@@ -907,7 +907,7 @@ ul{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 530px;
+  top: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
