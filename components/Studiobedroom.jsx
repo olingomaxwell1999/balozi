@@ -38,13 +38,11 @@ function Studiobedroom() {
             <div className="side">
                 <h2>one bedroom</h2>
 
-                <p>The epitome of elegant and intuitive design,</p>
-
-                <p>each 1 bedroom
-offers an effortless blend of luxurious </p>
-
-                <p>comfort, plenteous
-space and architectural sophistication.</p>
+                <p>Our one-bedroom apartments, spanning 510 sqft,
+offer bright and airy living spaces, ensuring a
+modern and sophisticated living experience.
+Investors can expect a premium return on investment
+from this highly sought-after property.</p>
 {/* <p> 
 These units sits on a built up areas of approximately.
 ▪︎One Bedroom Deluxe - 510 sqft
@@ -55,13 +53,12 @@ These units sits on a built up areas of approximately.
             <div className="side">
                 <h2>studios</h2>
 
-                <p>Nestled in nature yet connected to an</p>
-
-                <p>inspired array of
-world class amenities, The Reveal</p>
-
-                <p>has an exquisite collection of Spacious
-studios ranging from Junior Studios to Deluxe Studios</p>
+                <p>Embrace a lifestyle in which vibrant living and tranquil
+calmness converge, Balozi suites has an exquisite
+collection of Spacious.
+Balozi Suites is the perfect investment opportunity for
+those looking to invest in a premium property that
+promises maximum returns on investment.</p>
             </div>
         </div>
         <div className="bottom-layer">

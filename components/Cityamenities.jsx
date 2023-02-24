@@ -56,7 +56,7 @@ function Cityamenities() {
 
         <div className='city-card'>
           <ImRoad className='icon-city' color={'#777777'}/>
-          <h3>Dual Access from Ngong Road</h3>
+          <h3>Dual Access from Mombasa Road</h3>
         </div>
 
         <div className='city-card'>
