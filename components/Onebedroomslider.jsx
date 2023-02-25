@@ -21,7 +21,7 @@ import ImageSixteen from '../assets/balozisixteen.jpg'
 import ImageSeventeen from '../assets/baloziseventeen.jpg'
 import ImageEighteen from '../assets/balozieighteen.jpg'
 import ImageNineteen from '../assets/balozithirteen.jpg'
-import ImageTwenty from '../assets/balozifive.jpg'
+import ImageTwenty from '../assets/balozithirty.jpg'
 
 function Onebedroomslider() {
 

@@ -15,7 +15,7 @@ function Revealmodal({closeModal}) {
   return (
     <div data-aos='zoom-in' className='onebedroommodal'>
       <div className="text-above">
-        <button className='btn-light' onClick={handleClick}>close</button>
+        <button className='btn' onClick={handleClick}>close</button>
       </div>
 
       <div className="image-below">
@@ -26,3 +26,8 @@ function Revealmodal({closeModal}) {
 }
 
 export default Revealmodal
+
+// amenities banner to homepage
+// amenities banner to have the swimmingpool
+// change location banner to an arial view
+// remove the egnamic parentmix up images on the slider

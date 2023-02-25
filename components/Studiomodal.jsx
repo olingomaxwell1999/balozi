@@ -19,7 +19,7 @@ function Studiomodal({closeModal}) {
       </div>
 
       <div className="image-below">
-        <Image src={Onebedroomplan} priority='true' height={400} width={900} alt='floor' />
+        <Image className='modal-image' src={Onebedroomplan} priority='true' height={400} width={900} alt='floor' />
       </div>
     </div>
   )

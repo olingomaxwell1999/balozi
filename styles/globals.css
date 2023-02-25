@@ -985,6 +985,12 @@ ul{
   right: 0;
 }
 
+.modal-image{
+  height: 400px;
+  width: 900px;
+  object-fit: cover !important;
+}
+
 @media screen and (max-width:768px){
   .onebedroommodal{
     width: 80% !important;

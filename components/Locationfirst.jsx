@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Link from 'next/link'
 
 function Locationfirst() {
 
@@ -19,7 +20,9 @@ function Locationfirst() {
         </div>
 
         <div style={{marginTop:'30px'}} className='btn-area'>
-          <button className="btn-light">Head to google maps</button>
+          <Link href='https://maps.app.goo.gl/8XVUXk1c2NWWoTWc7' target='_blank'>
+            <button className="btn-light">Head to google maps</button>
+          </Link>
         </div>
     </div>
   )
