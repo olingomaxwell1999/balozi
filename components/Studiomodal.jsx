@@ -15,7 +15,7 @@ function Studiomodal({closeModal}) {
   return (
     <div data-aos='zoom-in' className='onebedroommodal'>
       <div className="text-above">
-        <button className='btn-light' onClick={handleClick}>close</button>
+        <button className='btn' onClick={handleClick}>close</button>
       </div>
 
       <div className="image-below">

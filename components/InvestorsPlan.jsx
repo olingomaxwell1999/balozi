@@ -89,7 +89,8 @@ A large base of investors have been attracted by the growing market demand of lu
             </div>
 
             <div className="text-area-investment">
-                <p>Upfront Payments: All amounts paid can be refunded in full if cancellation is before signing of the sale agreement. All such refunds should be requested in writing and shall be issued in the purchaser name(s) stated on the reservation form regardless of the source of funds.</p>
+                <p><strong>Upfront Payments:</strong> 
+If a buyer wishes to make accelerated payments, a discounted price may be considered. Please discuss this with your sales executive.</p>
               </div>
             
           </div>

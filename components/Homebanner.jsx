@@ -16,6 +16,7 @@ function Homebanner() {
 
       <div className="text">
         <h1>BALOZI SUITES</h1>
+        <h3>South B</h3>
       </div>
     </div>
   )
