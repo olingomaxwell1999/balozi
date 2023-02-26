@@ -9,27 +9,35 @@ function Studiobedroom() {
     AOS.init({duration:1500})
   })
 
-  const downloadPdf = () => {
+  const brochure = 'https://www.balozisuites.com/cv.pdf'
 
-    //using javascript method to fetch the file
+  const handleClick = (url) => {
+    console.log('This button has been clicked')
 
-    fetch('../assets/THE REVEAL BROCHURE.pdf').then(response => {
-      response.blob()
-      .then(blob => {
-        //creating the new object of pdf file
-        const fileURL = window.URL.createObjectURL(blob)
+    //making the pdf a link
+    const fileName = url.split("/").pop()
 
-        //setting various property values
-        let alink = document.createElement('a')
+    //creating an anchor tag
+    const aTag = document.createElement('a')
 
-        alink.href = fileURL
+    //adding the href attribute
+    aTag.href = url
 
-        alink.download = '../assets/THE REVEAL BROCHURE.pdf'
+    //adding the download attribute and the pdf link attribute
+    aTag.setAttribute("download", fileName)
 
-        alink.click()
-      })
-    })
+    //adding the newly created element to the body 
+    document.body.appendChild(aTag)
 
+    //activating the click functionality
+    aTag.click()
+
+    //removing the aTag after clicking
+    aTag.remove()
+  }
+
+  const runHandleClick = () => {
+    handleClick(brochure)
   }
 
   return (
@@ -62,9 +70,7 @@ promises maximum returns on investment.</p>
             </div>
         </div>
         <div className="bottom-layer">
-            <Link href='../assets/THE REVEAL BROCHURE.pdf' download='true'>
-              <button onClick={downloadPdf} className='btn-light'>download brochure</button>
-            </Link>
+            <button className='btn-light' onClick={runHandleClick}>Download Brochure</button>
         </div>
     </div>
   )
