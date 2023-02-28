@@ -44,6 +44,10 @@ function Onebedroomslider() {
     }
   };
 
+  setInterval(() => {
+    handleClick()
+  }, 1000);
+
   // useEffect(() => {
   //   setTimeout(() => {
   //   handleClick()
