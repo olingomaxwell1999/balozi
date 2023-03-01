@@ -11,6 +11,7 @@ const MENU_LIST = [
   { text: "Location", href: "/location" },
   { text: "Investors Guide", href: "/investorsguide" },
   { text: "Contact", href: "/contact" },
+  {text: "Comex Homes", href: "https://www.comexhomes.ke/"}
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
