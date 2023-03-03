@@ -691,10 +691,11 @@ h1,h2,h3,h4,h5,h6{
 .location-cover{
   width: 100%;
   height: 600px;
-  background-image: url('../assets/Google Map Reveal.jpg');
+  /* background-image: url('../assets/Google Map Reveal.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border: none;
 }
 
 .amenities-first-text{
