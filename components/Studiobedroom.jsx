@@ -9,7 +9,7 @@ function Studiobedroom() {
     AOS.init({duration:1500})
   })
 
-  const brochure = 'https://www.balozisuites.com/cv.pdf'
+  const brochure = 'https://www.balozisuites.com/BALOZI SUITES BROCHURE ksh.pdf'
 
   const handleClick = (url) => {
     console.log('This button has been clicked')
