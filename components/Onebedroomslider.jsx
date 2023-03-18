@@ -1,58 +1,48 @@
+import dynamic from 'next/dynamic'
 import {AiOutlineArrowRight, AiOutlineArrowLeft} from 'react-icons/ai'
-import useDownloader from "react-use-downloader"
-import { useRef, useState, useEffect } from "react";
-import Onebedroomitem from './Onebedroomitem';
-import ImageOne from '../assets/balozi.jpg'
-import ImageTwo from '../assets/balozione.jpg'
-import ImageThree from '../assets/balozitwo.jpg'
-import ImageFour from '../assets/balozithree.jpg'
-import ImageFive from '../assets/balozifive.jpg'
-import ImageSix from '../assets/balozisix.jpg'
-import ImageSeven from '../assets/baloziseven.jpg'
-import ImageEight from '../assets/balozieight.jpg'
-import ImageNine from '../assets/balozinine.jpg'
-import ImageTen from '../assets/baloziten.jpg'
-import ImageEleven from '../assets/balozieleven.jpg'
-import ImageTwelve from '../assets/balozitwelve.jpg'
-import ImageThirteen from '../assets/balozithirteen.jpg'
-import ImageFourteen from '../assets/balozifourteen.jpg'
-import ImageFifteen from '../assets/balozififteen.jpg'
-import ImageSixteen from '../assets/balozisixteen.jpg'
-import ImageSeventeen from '../assets/baloziseventeen.jpg'
-import ImageEighteen from '../assets/balozieighteen.jpg'
-import ImageNineteen from '../assets/balozithirteen.jpg'
-import ImageTwenty from '../assets/balozithirty.jpg'
+import { useRef, useState } from "react";
+const Onebedroomitem = dynamic(() => import('./Onebedroomitem'), {ssr: false})
+const ImageOne = dynamic(() => import('../assets/balozi.jpg'), {ssr: false})
+const ImageTwo = dynamic(() => import('../assets/balozione.jpg'), {ssr: false})
+const ImageThree = dynamic(() => import('../assets/balozitwo.jpg'), {ssr: false})
+const ImageFour = dynamic(() => import('../assets/balozithree.jpg'), {ssr: false})
+const ImageFive = dynamic(() => import('../assets/balozifour.jpg'), {ssr: false})
+const ImageSix = dynamic(() => import('../assets/balozifive.jpg'), {ssr: false})
+const ImageSeven = dynamic(() => import('../assets/balozisix.jpg'), {ssr: false})
+const ImageEight = dynamic(() => import('../assets/baloziseven.jpg'), {ssr: false})
+const ImageNine = dynamic(() => import('../assets/balozieight.jpg'), {ssr: false})
+const ImageTen = dynamic(() => import('../assets/balozinine.jpg'), {ssr: false})
+const ImageEleven = dynamic(() => import('../assets/baloziten.jpg'), {ssr: false})
+const ImageTwelve = dynamic(() => import('../assets/balozieleven.jpg'), {ssr: false})
+const ImageThirteen = dynamic(() => import('../assets/balozitwelve.jpg'), {ssr: false})
+const ImageFourteen = dynamic(() => import('../assets/balozithirteen.jpg'), {ssr: false})
+const ImageFifteen = dynamic(() => import('../assets/balozifourteen.jpg'), {ssr: false})
+const ImageSixteen = dynamic(() => import('../assets/balozififteen.jpg'), {ssr: false})
+const ImageSeventeen = dynamic(() => import('../assets/balozisixteen.jpg'), {ssr: false})
+const ImageEighteen = dynamic(() => import('../assets/baloziseventeen.jpg'), {ssr: false})
+const ImageNineteen = dynamic(() => import('../assets/balozieighteen.jpg'), {ssr: false})
+const ImageTwenty = dynamic(() => import('../assets/balozithirty.jpg'), {ssr: false})
 
 function Onebedroomslider() {
 
     const [isMoved, setIsMoved] = useState(false);
     const [slideNumber, setSlideNumber] = useState(0);
 
-    const listRef = useRef();
+    let refferHere = useRef(0);
 
 
     const handleClick = (direction) => {
     setIsMoved(true);
-    let distance = listRef.current.getBoundingClientRect().x - 50;
+    let distance = refferHere.current.getBoundingClientRect().x - 50;
     if (direction === "left" && slideNumber > 0) {
       setSlideNumber(slideNumber - 1);
-      listRef.current.style.transform = `translateX(${230 + distance}px)`;
+      refferHere.current.style.transform = `translateX(${230 + distance}px)`;
     }
     if (direction === "right" && slideNumber < 5) {
       setSlideNumber(slideNumber + 1);
-      listRef.current.style.transform = `translateX(${-230 + distance}px)`;
+      refferHere.current.style.transform = `translateX(${-230 + distance}px)`;
     }
   };
-
-  setInterval(() => {
-    handleClick()
-  }, 1000);
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //   handleClick()
-  // },1000)
-  // },[])
   
 
   const Images = [
@@ -163,7 +153,7 @@ function Onebedroomslider() {
             <div className="wrapper">
                 <AiOutlineArrowLeft className="sliderArrow left" onClick={() => handleClick("left")} style={{ display: !isMoved && "none" }}
                 />
-                <div className="container" ref={listRef}>
+                <div className="container" ref={refferHere}>
 
                     {
                     Images.map((image) => (

@@ -1,8 +1,8 @@
-import InvestmentPlan from '@/components/InvestorsPlan'
-import InvestorsGuideBanner from '@/components/InvesrorsGuideBanner'
-import React from 'react'
-import Purchase from '@/components/Purchase'
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
+const InvestmentPlan = dynamic(() => import('@/components/InvestorsPlan') , { ssr: false })
+const InvestorsGuideBanner = dynamic(() => import('@/components/InvesrorsGuideBanner') , { ssr: false }) 
+const Purchase = dynamic(() => import('@/components/Purchase'), {ssr: false})
 
 function investorsguide() {
   return (

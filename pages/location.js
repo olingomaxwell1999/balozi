@@ -1,8 +1,8 @@
-import Locationbanner from '@/components/Locationbanner'
-import Locationcover from '@/components/Locationcover'
-import Locationfirst from '@/components/Locationfirst'
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
-import React from 'react'
+const Locationbanner = dynamic(() => import('@/components/Locationbanner'), {ssr: false})
+const Locationcover = dynamic(() => import('@/components/Locationcover'), {ssr: false})
+const Locationfirst = dynamic(() => import('@/components/Locationfirst'), {ssr: false}) 
 
 function location() {
   return (

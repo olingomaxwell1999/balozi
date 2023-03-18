@@ -1,7 +1,8 @@
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
-import Footer from '../components/Footer';
-import Enquirestrip from './Enquirestrip';
-import Navbar from './Navbar';
+const Footer = dynamic(() => import('../components/Footer'), {ssr: false});
+const Enquirestrip = dynamic(() => import('./Enquirestrip'), {ssr: false});
+const Navbar = dynamic(() => import('./Navbar'), {ssr: false});
 
 export default function Layout({ children }) {
   return (

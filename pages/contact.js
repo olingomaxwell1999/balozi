@@ -1,8 +1,8 @@
-import Contactarea from '@/components/Contactarea'
-import Contactsbanner from '@/components/Contactsbanner'
-import Locationcover from '@/components/Locationcover'
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
-import React from 'react'
+const Contactarea = dynamic(() => import('@/components/Contactarea') , { ssr: false })
+const Contactsbanner = dynamic(() => import('@/components/Contactsbanner') , { ssr: false })
+const Locationcover = dynamic(() => import('@/components/Locationcover') , { ssr: false }) 
 
 function contact() {
 

@@ -1,13 +1,14 @@
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import Homebanner from '@/components/Homebanner'
-import Aboutteam from '@/components/Aboutteam'
-import Cover from '@/components/Cover'
-import City from '@/components/City'
-import Covertwo from '@/components/Covertwo'
-import Studiobedroom from '@/components/Studiobedroom'
-import Revealarea from '@/components/Revealarea'
+const Homebanner = dynamic(() => import('@/components/Homebanner') , { ssr: false })
+const Aboutteam = dynamic(() => import('@/components/Aboutteam') , { ssr: false })
+const Cover = dynamic(() => import('@/components/Cover') , { ssr: false })
+const City = dynamic(() => import('@/components/City') , { ssr: false })
+const Covertwo = dynamic(() => import('@/components/Covertwo') , { ssr: false })
+const Studiobedroom = dynamic(() => import('@/components/Studiobedroom') , { ssr: false })
+const Revealarea = dynamic(() => import('@/components/Revealarea') , { ssr: false })
 
 export default function Home() {
   return (

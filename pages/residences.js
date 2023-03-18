@@ -1,11 +1,11 @@
-import Onebedroomcover from '@/components/Onebedroomcover'
-import Onebedroomfirst from '@/components/Onebedroomfirst'
-import Onebedroomslider from '@/components/Onebedroomslider'
-import ResidenceBanner from '@/components/ResidenceBanner'
-import Studiofirst from '@/components/Studiofirst'
-import Studiosecond from '@/components/Studiosecond'
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
-import React from 'react'
+const Onebedroomcover = dynamic(() => import('@/components/Onebedroomcover'), {ssr: false})
+const Onebedroomfirst = dynamic(() => import('@/components/Onebedroomfirst'), {ssr: false})
+const Onebedroomslider = dynamic(() => import('@/components/Onebedroomslider'), {ssr: false})
+const ResidenceBanner = dynamic(() => import('@/components/ResidenceBanner'), {ssr: false})
+const Studiofirst = dynamic(() => import('@/components/Studiofirst'), {ssr: false})
+const Studiosecond = dynamic(() => import('@/components/Studiosecond'), {ssr: false})
 
 function residences() {
   return (

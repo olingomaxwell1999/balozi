@@ -1,11 +1,11 @@
-import Amenitiesfirst from '@/components/Amenitiesfirst'
-import Amenitiessecond from '@/components/Amenitiessecond'
-import Amenitiesslider from '@/components/Amenitiesslider'
-import BannerAmenities from '@/components/BannerAmenities'
-import Cityamenities from '@/components/Cityamenities'
-import Coveramenities from '@/components/Coveramenities'
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
-import React from 'react'
+const Amenitiesfirst = dynamic(() => import('@/components/Amenitiesfirst') , { ssr: false })
+const Amenitiessecond = dynamic(() => import('@/components/Amenitiessecond') , { ssr: false })
+const Amenitiesslider = dynamic(() => import('@/components/Amenitiesslider') , { ssr: false })
+const BannerAmenities = dynamic(() => import('@/components/BannerAmenities') , { ssr: false })
+const Cityamenities = dynamic(() => import('@/components/Cityamenities') , { ssr: false })
+const Coveramenities = dynamic(() => import('@/components/Coveramenities') , { ssr: false })
 
 function amenities() {
   return (
