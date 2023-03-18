@@ -4,26 +4,26 @@ import dynamic from 'next/dynamic'
 import ListItem from './ListItem';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-const ImageOne = dynamic(() => import('../assets/balozithirty.jpg'), {ssr: false})
-const ImageTwo = dynamic(() => import('../assets/balozitwentyeight.jpg'), {ssr: false})
-const ImageThree = dynamic(() => import('../assets/balozitwentyseven.jpg'), {ssr: false})
-const ImageFour = dynamic(() => import('../assets/balozitwentysix.jpg'), {ssr: false})
-const ImageFive = dynamic(() => import('../assets/balozitwentyfive.jpg'), {ssr: false})
-const ImageSix = dynamic(() => import('../assets/balozifive.jpg'), {ssr: false})
-const ImageSeven = dynamic(() => import('../assets/balozisix.jpg'), {ssr: false})
-const ImageEight = dynamic(() => import('../assets/baloziseven.jpg'), {ssr: false})
-const ImageNine = dynamic(() => import('../assets/balozieight.jpg'), {ssr: false})
-const ImageTen = dynamic(() => import('../assets/balozinine.jpg'), {ssr: false})
-const ImageEleven = dynamic(() => import('../assets/baloziten.jpg'), {ssr: false})
-const ImageTwelve = dynamic(() => import('../assets/balozieleven.jpg'), {ssr: false})
-const ImageThirteen = dynamic(() => import('../assets/balozitwelve.jpg'), {ssr: false})
-const ImageFourteen = dynamic(() => import('../assets/balozithirteen.jpg'), {ssr: false})
-const ImageFifteen = dynamic(() => import('../assets/balozifourteen.jpg'), {ssr: false})
-const ImageSixteen = dynamic(() => import('../assets/balozififteen.jpg'), {ssr: false})
-const ImageSeventeen = dynamic(() => import('../assets/balozisixteen.jpg'), {ssr: false})
-const ImageEighteen = dynamic(() => import('../assets/baloziseventeen.jpg'), {ssr: false})
-const ImageNineteen = dynamic(() => import('../assets/balozieighteen.jpg'), {ssr: false})
-const ImageTwenty = dynamic(() => import('../assets/balozithirty.jpg'), {ssr: false})
+import ImageOne from '../assets/balozithirty.jpg'
+import ImageTwo from '../assets/balozitwentyeight.jpg'
+import ImageThree from '../assets/balozitwentyseven.jpg'
+import ImageFour from '../assets/balozitwentysix.jpg'
+import ImageFive from '../assets/balozitwentyfive.jpg'
+import ImageSix from '../assets/balozifive.jpg'
+import ImageSeven from '../assets/balozisix.jpg'
+import ImageEight from '../assets/baloziseven.jpg'
+import ImageNine from '../assets/balozieight.jpg'
+import ImageTen from '../assets/balozinine.jpg'
+import ImageEleven from '../assets/baloziten.jpg'
+import ImageTwelve from '../assets/balozieleven.jpg'
+import ImageThirteen from '../assets/balozitwelve.jpg'
+import ImageFourteen from '../assets/balozithirteen.jpg'
+import ImageFifteen from '../assets/balozifourteen.jpg'
+import ImageSixteen from '../assets/balozififteen.jpg'
+import ImageSeventeen from '../assets/balozisixteen.jpg'
+import ImageEighteen from '../assets/baloziseventeen.jpg'
+import ImageNineteen from '../assets/balozieighteen.jpg'
+import ImageTwenty from '../assets/balozithirty.jpg'
 
 function Amenitiesslider() {
 

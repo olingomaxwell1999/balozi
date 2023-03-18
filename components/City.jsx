@@ -25,12 +25,12 @@ function City() {
       <div className="bottom-city">
         <div className='city-card'>
           <TbSwimming className='icon-city' color={'#777777'}/>
-          <h3>rooftop swimming pool</h3>
+          <h3>Rooftop Swimming Pool</h3>
         </div>
 
         <div className='city-card'>
           <GiLift className='icon-city' color={'#777777'}/>
-          <h3>Two high speed lift</h3>
+          <h3>Two High Speed Lift</h3>
         </div>
 
         <div className='city-card'>
