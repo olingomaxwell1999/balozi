@@ -93,23 +93,23 @@ function Contactarea() {
 
         <div className="socials-container">
             <h3>Follow Us</h3>
-            <Link href='www.facebook.com' target="_blank">
+            <Link href='https://www.facebook.com/comexhomes' target="_blank">
                 <ImFacebook className='social-icon'/>
             </Link>
 
-            <Link href='www.instagram.com' target="_blank">
+            <Link href='https://www.instagram.com/comexhomeske/' target="_blank">
                 <AiOutlineInstagram className='social-icon'/>
             </Link>
 
-            <Link href='www.twitter.com' target="_blank">
+            <Link href='https://twitter.com/ComexHomes' target="_blank">
                 <AiOutlineTwitter className='social-icon'/>
             </Link>
 
-            <Link href='www.linkedin.com' target="_blank">
+            <Link href='https://www.linkedin.com/company/comexhomes/' target="_blank">
                 <FaLinkedinIn className='social-icon'/>
             </Link>
 
-            <Link href='www.youtube.com' target="_blank">
+            <Link href='https://www.youtube.com/channel/UC6Dm0R805fzKUROf96u-VpQ' target="_blank">
                 <AiFillYoutube className='social-icon'/>
             </Link>
         </div>

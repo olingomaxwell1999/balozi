@@ -16,7 +16,7 @@ function Amenitiesfirst() {
         </div>
         <div className="amenities-first-text">
             <p>Discover Urban Living, deeply rooted in modernity yet
-effortlessly connected in the green heart of Kilimani, surrounded
+effortlessly connected in the green heart of South B, surrounded
 by world class amenities.</p>
         </div>
 
