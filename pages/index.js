@@ -18,6 +18,15 @@ export default function Home() {
         <meta name="description" content="The official balozi suites is an area of residence ready to be bought. Here you will find all the information you need." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"fa199c8d48c8cf04b58c065d5c96587b"})});
+            `,
+          }}
+        ></script>
+        
       </Head>
       
       <Homebanner/>
