@@ -31,7 +31,7 @@ function Footer() {
         </div>
         <div className="right-area-side">
           <h3>comex homes</h3>
-          <p>Saku Business Park, North Airport Road. Embakasi.</p>
+          <p>Hurligham Telkom Plaza. 1st Floor.</p>
           <p>Phone : +254 730 870870</p>
         </div>
       </div>

@@ -66,7 +66,7 @@ header{
   position: fixed !important;
   z-index: 100000;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
 }
 nav{
