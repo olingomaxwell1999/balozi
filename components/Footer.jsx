@@ -32,7 +32,7 @@ function Footer() {
         <div className="right-area-side">
           <h3>comex homes</h3>
           <p>Hurligham Telkom Plaza. 1st Floor.</p>
-          <p>Phone : +254 799111555</p>
+          <p>Phone : +254111055155</p>
         </div>
       </div>
 
