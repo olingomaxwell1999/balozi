@@ -36,7 +36,7 @@ function Enquirestrip() {
       
       <div className="btn-area">
         <div className="place">
-          <Link href='https://forms.zoho.com/balozi/form/PropertyInterest' target='_blank'>
+          <Link href='https://forms.zohopublic.com/balozi/form/PropertyInterest/formperma/A33a_iR2K9mYWoQm68L3X_NCve97H84-YitBPSETT7o' target='_blank'>
             <button className="btn">register interest</button>
           </Link>
         </div>
