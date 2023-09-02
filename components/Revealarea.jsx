@@ -29,7 +29,7 @@ Further adding to the undeniable luxury is a rooftop pool, fully equipped roofto
         <div style={{marginTop:'20px'}} className='btn-area'>
           
 
-          <Link href='https://share-eu1.hsforms.com/1Q0NJQsh4Tvy6GPQ9g2QnMwfblz8' target='_blank'>
+          <Link href='https://forms.zohopublic.com/balozi/form/PropertyInterest/formperma/A33a_iR2K9mYWoQm68L3X_NCve97H84-YitBPSETT7o' target='_blank'>
             <button className="btn">register interest</button>
           </Link>
         </div>
