@@ -1,20 +1,16 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
 
-import Head from 'next/head'
+import Head from "next/head";
 
-import Layout from '../components/Layout'
-import Script from 'next/script'
+import Layout from "../components/Layout";
+import Script from "next/script";
+import ZohoSalesIQ from "./salesiq";
 
-function MyApp ({Component, pageProps}) {
-
-
+function MyApp({ Component, pageProps }) {
   return (
     <>
-
-      
-    
       <Head>
-       <script
+        <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
             __html: `
@@ -31,12 +27,14 @@ function MyApp ({Component, pageProps}) {
             `,
           }}
         />
- 
       </Head>
       <Layout>
-        <Script strategy='afterInteractive' src='https://www.googletagmanager.com/gtag/js?id=G-ZTSB4BN10X'/>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZTSB4BN10X"
+        />
 
-        <Script id='google-analytics' strategy='afterInteractive'>
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -46,10 +44,11 @@ function MyApp ({Component, pageProps}) {
             })
           `}
         </Script>
-        <Component {...pageProps}/>
+        <ZohoSalesIQ />
+        <Component {...pageProps} />
       </Layout>
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
