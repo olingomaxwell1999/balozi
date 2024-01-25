@@ -4,7 +4,7 @@ import Head from "next/head";
 
 import Layout from "../components/Layout";
 import Script from "next/script";
-import ZohoSalesIQ from "./salesiq";
+// import ZohoSalesIQ from "./salesiq";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
             })
           `}
         </Script>
-        <ZohoSalesIQ />
+        {/* <ZohoSalesIQ /> */}
         <Component {...pageProps} />
       </Layout>
     </>
