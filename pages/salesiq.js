@@ -18,18 +18,15 @@ const ZohoSalesIQ = () => {
       var t=d.getElementsByTagName("script")[0];
       t.parentNode.insertBefore(s,t);
     `;
-
     document.body.appendChild(script);
-
     return () => {
-      // Cleanup if the component is unmounted
       if (script.parentNode) {
         script.parentNode.removeChild(script);
       }
     };
   }, []);
 
-  return null; // The component doesn't render anything
+  return null;
 };
 
 export default ZohoSalesIQ;
