@@ -1,10 +1,7 @@
 import "../styles/globals.css";
-
 import Head from "next/head";
-
 import Layout from "../components/Layout";
 import Script from "next/script";
-// import ZohoSalesIQ from "./salesiq";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -27,6 +24,15 @@ function MyApp({ Component, pageProps }) {
             `,
           }}
         />
+        {/* Start of HubSpot Embed Code */}
+        <script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="//js-eu1.hs-scripts.com/25735940.js"
+        />
+        {/* End of HubSpot Embed Code */}
       </Head>
       <Layout>
         <Script
@@ -44,7 +50,6 @@ function MyApp({ Component, pageProps }) {
             })
           `}
         </Script>
-        {/* <ZohoSalesIQ /> */}
         <Component {...pageProps} />
       </Layout>
     </>
